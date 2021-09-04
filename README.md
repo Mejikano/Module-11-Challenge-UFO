@@ -23,31 +23,31 @@ Following example walk the user thru each table filter
 
 1. No Filters - UFO Sightings 
 
-![No Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/No_filter.png)
+![No Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/static/images/No_filter.png)
 
 2. State Filter - UFO Sightings 
 
 The state of California (CA) is filtered and the table shows provided state result 
 
-![State Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/filter_State.png)
+![State Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/static/images/filter_State.png)
 
 3. Shape Filter - UFO Sightings 
 
 light shapes are entered and the table shows UFO sightings with light shapes in California State (specified before in the City Filter)
 
-![Shape Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/filter_Shape.png)
+![Shape Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/static/images/filter_Shape.png)
 
 4. City Filter - UFO Sightings 
 
 el cajon City is filtered so the table dynamically shows UFO sightings with light shapes in El Cajon City California State (Shape and City entered before filters the result set)
 
-![City Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/filter_City.png)
+![City Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/static/images/filter_City.png)
 
 5. Date Filter - UFO Sightings 
 
 January, 4 2010  entered in the filter text file shows results for that date with lights sightings  in El Cajon City California State (Shape and City entered before filters the result set)
 
-![Date Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/filter_Date.png)
+![Date Filter - UFO Sightings Table](https://github.com/Mejikano/Module-11-Challenge-UFO/blob/main/Resources/static/images/filter_Date.png)
 
 
 ## Summary
