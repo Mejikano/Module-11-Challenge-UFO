@@ -54,11 +54,11 @@ January, 4 2010  entered in the filter text file shows results for that date wit
 
 ### Drawback 
 
-Applying multiple filters to each raw was a challenge indeed, a single if statement linked with all user input text at once does not work because the user can leave blank input texts on the filter pane i.e. city === city & state === state & date === date & shape === shape etc. 
+Applying multiple filters to each raw was indeed a challenge, a single if statement linked with all user input text at once does not work because the user can leave blank input texts on the filter pane i.e. city === city & state === state & date === date & shape === shape etc. 
 
 Alternatively an algorithm with an if statement per input text: if (city === city), if (state === state) etc... could solve the problem.  
 
-However the iteration and filtering code implemented dinamycally with two JS fat arrow functions take the filters keys and iterates per table record (row) and each input text (key) to identify records matching given criteria. 
+However the iteration and filtering code implemented dynamically with two JS fat arrow functions take the filters keys and iterates per table record (row) and each input text (key) to identify records matching given criteria. 
 
 ***Pros of this approach** is that this same code snippet works if more fields are added to be filtered as it would be just an HTML change, less code lines are needed as well (no if statement per filtering field).  
 
@@ -70,7 +70,7 @@ For Reference below JS code snippet:
     filter_keys = Object.keys(filters);
     
     //For each filter key input by user. 
-    //Note: if column filters increase it would adjust dinamycally
+    //Note: if column filters increase it would adjust dynamically
       filter_keys.forEach((key)=>{
         //Start filtering data iterating row by row
         filteredData = filteredData.filter(row => {
@@ -88,4 +88,4 @@ For Reference below JS code snippet:
 Recommendations for future:
 
 - Apply a Calendar Date Picker for dates filters, this will ensure that users enter right dates and formats.
-- Use dropdown list instead of text boxex for the rest of the filters, these can be updated dynamically using JS D3 to show to the user just the available values based on previous filtering and the filtered records field values. 
+- Use dropdown list instead of text boxes for the rest of the filters, these can be updated dynamically using JS D3 to show to the user just the available values based on previous filtering and the filtered records field values. 
